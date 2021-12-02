@@ -1,0 +1,31 @@
+.scrollTextMedium {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.marqueeMedium {
+  margin: 0 auto;
+  white-space: nowrap;
+  position: absolute;
+
+  font-size: 1.5rem;
+}
+
+.marqueeMedium span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marqueeSlow 15s linear infinite;
+}
+
+.marquee2Medium span {
+  animation-delay: 7.5s;
+}
+
+@keyframes marqueeMedium {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
