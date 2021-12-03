@@ -13,9 +13,7 @@
 
 }
 
-App::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
-}
+
 
 .input {
   color: rgb(44, 44, 44);
